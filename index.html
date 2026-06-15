@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alex Rivera — Web Developer & UI Designer. Building clean, purposeful digital experiences." />
+  <title>Alex Rivera | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <header id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">AR<span class="dot">.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="icon-sun">☀</span>
+          <span class="icon-moon">☾</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="hero-bg-shape" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow reveal">Web Developer &amp; UI Designer</p>
+          <h1 class="hero-name reveal">Hi, I'm <span class="accent">Alex Rivera</span></h1>
+          <p class="hero-tagline reveal">I design and build digital products that are fast, accessible, and genuinely enjoyable to use.</p>
+          <div class="hero-ctas reveal">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="avatar-ring">
+            <div class="avatar-placeholder">AR</div>
+          </div>
+          <div class="floating-badge badge-top">✦ Available for work</div>
+          <div class="floating-badge badge-bottom">3+ years exp.</div>
+        </div>
+      </div>
+      <div class="scroll-hint reveal" aria-hidden="true">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+      <div class="container">
+        <p class="section-eyebrow reveal">Who I am</p>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <h2>Design-minded developer,<br/>detail-obsessed.</h2>
+            <p>I'm a frontend developer with a strong eye for design. I bridge the gap between Figma and the browser — turning thoughtfully designed interfaces into fast, accessible, production-ready code.</p>
+            <p>When I'm not pushing pixels, I'm exploring new CSS techniques, contributing to open source, or sketching UI ideas in my notebook.</p>
+            <a href="assets/Alex-Rivera-CV.pdf" class="btn btn-outline" download>Download CV</a>
+          </div>
+          <div class="about-stats reveal">
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">20+</span>
+              <span class="stat-label">Projects shipped</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Happy clients</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Passion for craft</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills">
+      <div class="container">
+        <p class="section-eyebrow reveal">What I work with</p>
+        <h2 class="reveal">Skills &amp; tools</h2>
+        <div class="skills-grid reveal">
+
+          <div class="skill-group">
+            <p class="skill-group-label">Languages</p>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <p class="skill-group-label">Frameworks</p>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">SCSS</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <p class="skill-group-label">Design</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">UI/UX Design</span>
+              <span class="skill-tag">Prototyping</span>
+              <span class="skill-tag">Design Systems</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <p class="skill-group-label">Tools</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Git &amp; GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Vercel</span>
+              <span class="skill-tag">Webpack</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+      <div class="container">
+        <p class="section-eyebrow reveal">Selected work</p>
+        <h2 class="reveal">Projects</h2>
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              <span class="project-img-label">E-commerce</span>
+            </div>
+            <div class="project-body">
+              <h3>ShopFlow</h3>
+              <p>A full e-commerce product page with cart functionality, image gallery, and variant selection. Built with React and custom CSS.</p>
+              <div class="project-tags">
+                <span>React</span><span>CSS Modules</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link">Live demo →</a>
+                <a href="#" class="btn-link muted">GitHub →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+              <span class="project-img-label">Dashboard</span>
+            </div>
+            <div class="project-body">
+              <h3>Analytics Hub</h3>
+              <p>A data dashboard with real-time charts, filters, and a dark-mode-first design. Integrated with a REST API for live data.</p>
+              <div class="project-tags">
+                <span>Next.js</span><span>Recharts</span><span>Tailwind</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link">Live demo →</a>
+                <a href="#" class="btn-link muted">GitHub →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+              <span class="project-img-label">Landing Page</span>
+            </div>
+            <div class="project-body">
+              <h3>Lumio — SaaS Landing</h3>
+              <p>An animated marketing landing page with GSAP scroll effects, custom SVG illustrations, and a contact form via Formspree.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>GSAP</span><span>SCSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link">Live demo →</a>
+                <a href="#" class="btn-link muted">GitHub →</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+      <div class="container">
+        <p class="section-eyebrow reveal">Let's work together</p>
+        <h2 class="reveal">Get in touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>I'm open to freelance projects, full-time roles, and collaborations. Drop me a message and I'll get back within 24 hours.</p>
+            <div class="contact-links">
+              <a href="mailto:alex@example.com" class="contact-item">
+                <span class="contact-icon">✉</span>
+                <span>alex@example.com</span>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener" class="contact-item">
+                <span class="contact-icon">⌥</span>
+                <span>github.com/alexrivera</span>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-item">
+                <span class="contact-icon">in</span>
+                <span>linkedin.com/in/alexrivera</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" action="https://formspree.io/f/YOUR_ID" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-logo">AR<span class="dot">.</span></p>
+      <p class="footer-copy">Designed &amp; built by Alex Rivera · 2025</p>
+      <p class="footer-copy">Made with HTML, CSS &amp; JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
