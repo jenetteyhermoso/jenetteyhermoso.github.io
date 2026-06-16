@@ -3,7 +3,7 @@
 A clean, responsive personal portfolio website built with pure HTML, CSS, and JavaScript — no frameworks, no build tools required.
 
 ## Live demo
-🔗 [yourusername.github.io](https://yourusername.github.io)
+🔗 [https://jenetteyhermoso.github.io/](https://jenetteyhermoso.github.io/)
 
 ## Features
 - Dark / light mode toggle (saved to localStorage)
